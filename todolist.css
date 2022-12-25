@@ -1,0 +1,44 @@
+body {
+  background-color: #191919;
+  color: #b88746;
+  font-size: larger;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.contaner {
+  position: absolute;
+  top: 35vh;
+  left: 35vw;
+  border: 2px solid #b88746;
+  width: 30vw;
+  height: 35vh;
+  text-align: center;
+}
+.contaner input {
+  background-color: #151515;
+  text-align: center;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+  font-size: large;
+}
+.contaner input {
+  color: #b88746;
+}
+.contaner input::placeholder {
+  color: #fdf5a6;
+}
+
+.contaner button {
+  background-color: #b88746;
+  color: #191919;
+}
+.contaner button:hover {
+  /* background-color: #b88746; */
+  background-color: #191919;
+  color: #b88746;
+}
+#push {
+  cursor: pointer;
+}
+i {
+  cursor: pointer;
+}
