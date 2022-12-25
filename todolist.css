@@ -9,15 +9,12 @@ body {
   text-align: center;
 }
 .contaner {
-  /* position: absolute;
-  top: 35vh;
-  left: 35vw; */
-  text-align: center;
-  align-items: center;
   margin-top: 30vh;
+  align-items: center;
+  text-align: center;
   border: 2px solid #b88746;
-  width: 30vw;
-  height: 35vh;
+  width: 40vw;
+  height: 45vh;
   text-align: center;
   overflow-y: scroll;
 }
@@ -50,12 +47,21 @@ body {
 i {
   cursor: pointer;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
   .contaner {
-    margin-top: 18.5vh;
+    margin-top: 21.25vh;
     justify-content: center;
     align-items: center;
-    width: 73vw;
-    height: 46vh;
+    width: 60vw;
+    height: 52vh;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .contaner {
+    margin-top: 19.25vh;
+    justify-content: center;
+    align-items: center;
+    width: 54vw;
+    height: 56vh;
   }
 }
