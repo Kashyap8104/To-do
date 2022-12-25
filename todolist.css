@@ -52,7 +52,7 @@ i {
 }
 @media screen and (max-width: 800px) {
   .contaner {
-    margin-top: 25.25vh;
+    margin-top: 23vh;
     justify-content: center;
     align-items: center;
     width: 73vw;
