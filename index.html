@@ -6,24 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TO-DO LIST</title>
     <link rel="stylesheet" href="todolist.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
-    <div class="contaner">
-      <div>&#128204;</div>
-      <h1>To-Do List &#128195;</h1>
-      <div class="fle" id="newtask">
-        <input
-          type="text"
-          name=""
-          id=""
-          onfocus="this.value=''"
-          placeholder="Enter your list"
-        />
-        <button type="submit" id="push" onclick="addTodo()">Add</button>
-        <div id="tasks"></div>
-      </div>
+    <div class="mainbox">
+      <div class="container">
+        <div>&#128204;</div>
+        <h1>To-Do List &#128195;</h1>
+        <div class="fle" id="newtask">
+          <input
+            type="text"
+            name=""
+            id=""
+            onfocus="this.value=''"
+            placeholder="Enter your list"
+          />
+          <br />
+          <button type="submit" id="push" onclick="addTodo()">Add</button>
+          <div id="tasks"></div>
+        </div>
 
-      <script src="todolist.js"></script>
+        <script src="todolist.js"></script>
+      </div>
+    </div>
+    <div class="wname">
+      <span>Made by Kashyap Manvar</span>
+      <!-- <h2>made by kashyap manvar</h2> -->
+    </div>
+    <div class="social">
+      <a href="https://github.com/kashyapmanvar" target="_blank"
+        ><i style="font-size: 36px" class="fa">&#xf09b;</i></a
+      >
+      <br />
+      <a
+        href="https://www.linkedin.com/in/kashyap-manvar-4724aa242"
+        target="_blank"
+        ><i class="fa fa-linkedin-square" style="font-size: 36px"></i
+      ></a>
+      <br />
+      <a
+        href="https://twitter.com/manvarkashyap08?t=OWuu8YFYvYTaMqoLK2XHxw&s=09"
+        target="_blank"
+        ><i class="fa fa-twitter" style="font-size: 36px"></i></a
+      ><br />
+      <a href="manvarkashyap18@gmail.com" target="_blank"
+        ><i style="font-size: 36px" class="fa">&#xf0e0;</i></a
+      >
     </div>
   </body>
 </html>
